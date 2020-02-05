@@ -8,6 +8,8 @@
 
 - [Today I Learned](#today-i-learned)
   - [목차](#%eb%aa%a9%ec%b0%a8)
+  - [돌아보기](#%eb%8f%8c%ec%95%84%eb%b3%b4%ea%b8%b0)
+    - [2020년](#2020%eb%85%84)
   - [Front-End](#front-end)
     - [CSS](#css)
       - [Property](#property)
@@ -28,6 +30,12 @@
     - [Markdown](#markdown)
     - [소프트웨어 개발 관련](#%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4-%ea%b0%9c%eb%b0%9c-%ea%b4%80%eb%a0%a8)
     - [취업 스터디 발표 자료](#%ec%b7%a8%ec%97%85-%ec%8a%a4%ed%84%b0%eb%94%94-%eb%b0%9c%ed%91%9c-%ec%9e%90%eb%a3%8c)
+
+## 돌아보기
+
+### 2020년
+
+- [1월](./retrospect/retrospect_202001.md)
 
 ## Front-End
 
