@@ -75,6 +75,7 @@
 #### Next.js
 
 - [Styled-jsx 이해](./nextjs/styled-jsx.md) - 2019.07.19
+- [SPA, SSR (왜 Next.js 를 사용하는가)](./nextjs/spa_ssr_nextjs.md) - 2020.02.23
 
 ---
 
