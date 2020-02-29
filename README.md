@@ -30,6 +30,7 @@
     - [Markdown](#markdown)
     - [소프트웨어 개발 관련](#%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4-%ea%b0%9c%eb%b0%9c-%ea%b4%80%eb%a0%a8)
     - [취업 스터디 발표 자료](#%ec%b7%a8%ec%97%85-%ec%8a%a4%ed%84%b0%eb%94%94-%eb%b0%9c%ed%91%9c-%ec%9e%90%eb%a3%8c)
+    - [사내 스터디 발표 자료](#%ec%82%ac%eb%82%b4-%ec%8a%a4%ed%84%b0%eb%94%94-%eb%b0%9c%ed%91%9c-%ec%9e%90%eb%a3%8c)
 
 ## 돌아보기
 
@@ -156,3 +157,14 @@
   1. [css Margin Collapsing(마진 겹침)](./css/margin-collapsing.md)
   2. [css Flexbox](./css/layout-flexbox.md)
   3. [css Position Property](./css/property-position.md)
+
+---
+
+### 사내 스터디 발표 자료
+
+- #1 Webpack 동작 원리 - 2020.01.16
+  1. [Module & Transpiler](./webpack/module-n-transpiler.md)
+  2. [실행 예제](https://github.com/Teperi/webpack_ex)
+  3. [Task runner VS Webpack](./webpack/task_runner-vs-webpack.md)
+- [#2 Webpack Concepts Guide(presentation)](https://docs.google.com/presentation/d/1J1gt_Tav1Fbm8eNaKRC7Nfm81RVjbHSdyQmg5dntHes/edit?usp=sharing) - 2020.01.23
+- [#3 Browser 동작 원리(presentation)](https://docs.google.com/presentation/d/1Ber9cN-bIcNTxYR5wqleJKaA4s5xa9LHP9GC681svUA/edit?usp=sharing) - 2020.01.30
