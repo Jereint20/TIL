@@ -37,6 +37,7 @@
 ### 2020년
 
 - [1월](./retrospect/retrospect_202001.md)
+- [2월](./retrospect/retrospect_202002.md)
 
 ## Front-End
 
