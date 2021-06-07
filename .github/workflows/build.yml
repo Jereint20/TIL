@@ -1,0 +1,25 @@
+name: Build README
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - README.md
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v2
+        with:
+          # necessary for github-action-til-autoformat-readme
+          fetch-depth: 0
+      - name: Autoformat README
+        uses: cflynn07/github-action-til-autoformat-readme@1.1.0
+        with:
+          description: |
+            이 TIL README 는 [TIL Auto-Format README][1]
+            에 의해 자동화되었습니다.
+          footer: |
+            [1]: https://github.com/marketplace/actions/til-auto-format-readme
+          list_most_recent: 3
