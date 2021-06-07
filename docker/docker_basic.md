@@ -24,8 +24,8 @@
 - Virtual Machine Monitor(VMM) 이라고도 함
 - 가상 머신을 만들거나 실행할 수 있는 소프트웨어/펌웨어/하드웨어를 통칭하는 말
 - 기반이 되는 컴퓨터를 Host Machine, 가상 머신을 Guest Machine 이라고 부름
-![Container Diagram](https://www.docker.com/sites/default/files/d8/2018-11/docker-containerized-and-vm-transparent-bg.png)
-*출처: [Docker 공식 사이트: What is a Container?](https://www.docker.com/resources/what-container)*
+  ![Container Diagram](https://www.docker.com/sites/default/files/d8/2018-11/docker-containerized-and-vm-transparent-bg.png)
+  _출처: [Docker 공식 사이트: What is a Container?](https://www.docker.com/resources/what-container)_
 
 ### Container
 
@@ -37,7 +37,7 @@
 ### Docker
 
 ![Docker architecture](https://docs.docker.com/engine/img/architecture.svg)
-*출처: [Docker 공식 문서](https://docs.docker.com/engine/docker-overview/)*
+_출처: [Docker 공식 문서](https://docs.docker.com/engine/docker-overview/)_
 
 - Git 과 같이 이미지 버전 관리 기능 있음
 - 배포 및 생성에 특화됨: 어떤 실행 환경을 만들고 공유할 수 있음
@@ -45,8 +45,8 @@
   - 서비스 운영에 필요한 서버 프로그램, 소스 코드, 컴파일된 실행 파일을 묶은 형태
   - 베이스 이미지에서 변경 부분만 따로 이미지로 생성됨
     - 컨테이너 실행 시 베이스 이미지 + 바뀐 부분 합쳐 실행
-  ![Docker Image Layer Sample](https://ouseful.files.wordpress.com/2015/08/imagelayers___a_docker_image_visualizer.png)
-  *출처: [OUseful.Info, the blog…: Seven Graphical Interfaces to Docker](https://blog.ouseful.info/2015/08/10/seven-graphical-interfaces-to-docker/)*
+      ![Docker Image Layer Sample](https://ouseful.files.wordpress.com/2015/08/imagelayers___a_docker_image_visualizer.png)
+      _출처: [OUseful.Info, the blog…: Seven Graphical Interfaces to Docker](https://blog.ouseful.info/2015/08/10/seven-graphical-interfaces-to-docker/)_
 - **Container**
   - 이미지를 실제 실행한 상태
 

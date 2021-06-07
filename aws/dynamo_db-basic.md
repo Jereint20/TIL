@@ -36,11 +36,11 @@
 
   ```js
   // aws-sdk 불러오기
-  var AWS = require("aws-sdk");
+  var AWS = require('aws-sdk');
   // 설정 확인
   AWS.config.update({
-    region: "ap-northeast-2",
-    endpoint: "https://dynamodb.ap-northeast-2.amazonaws.com"
+    region: 'ap-northeast-2',
+    endpoint: 'https://dynamodb.ap-northeast-2.amazonaws.com',
   });
 
   // dynamodb 연결
@@ -49,30 +49,36 @@
   // JS 변수 작성
   var params = {
     // 테이블 이름
-    TableName: "Movies",
+    TableName: 'Movies',
     // 테이블 key 스타일 정의
     KeySchema: [
-      { AttributeName: "year", KeyType: "HASH" }, //Partition key
-      { AttributeName: "title", KeyType: "RANGE" } //Sort key
+      { AttributeName: 'year', KeyType: 'HASH' }, //Partition key
+      { AttributeName: 'title', KeyType: 'RANGE' }, //Sort key
     ],
     // 테이블 key 사용 값 정의
     AttributeDefinitions: [
-      { AttributeName: "year", AttributeType: "N" },
-      { AttributeName: "title", AttributeType: "S" }
+      { AttributeName: 'year', AttributeType: 'N' },
+      { AttributeName: 'title', AttributeType: 'S' },
     ],
     // 데이터 사용량 정의
     ProvisionedThroughput: {
       ReadCapacityUnits: 10,
-      WriteCapacityUnits: 10
-    }
+      WriteCapacityUnits: 10,
+    },
   };
 
   // params를 dynamodb 에 넣기
-  dynamodb.createTable(params, function(err, data) {
+  dynamodb.createTable(params, function (err, data) {
     if (err) {
-      console.error("Unable to create table. Error JSON:", JSON.stringify(err, null, 2));
+      console.error(
+        'Unable to create table. Error JSON:',
+        JSON.stringify(err, null, 2)
+      );
     } else {
-      console.log("Created table. Table description JSON:", JSON.stringify(data, null, 2));
+      console.log(
+        'Created table. Table description JSON:',
+        JSON.stringify(data, null, 2)
+      );
     }
   });
   ```

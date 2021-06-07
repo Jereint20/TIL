@@ -37,7 +37,7 @@ function double(arr) {
 ```js
 // 선언형 프로그래밍 예시: Array 내 모든 값에 2씩 곱해주는 함수 작성
 function double(arr) {
-  return arr.map(item => item * 2);
+  return arr.map((item) => item * 2);
 }
 ```
 
@@ -148,12 +148,12 @@ function double(arr) {
 
       ```js
       // 순수함수와 불변성이 깨진 예
-      let arr = ["aa", "bb"];
+      let arr = ['aa', 'bb'];
 
       function impureFunc(name) {
         arr.push(name);
       }
-      impureFunc("cc"); // 결과 : ["aa","bb","cc"]
+      impureFunc('cc'); // 결과 : ["aa","bb","cc"]
       ```
 
 ## 출처 및 참고자료

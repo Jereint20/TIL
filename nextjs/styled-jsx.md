@@ -18,29 +18,28 @@
   - css 를 컴포넌트 내에 작성할 수 있게 도와주는 툴
   - 기본적으로 css와 사용법이 같음
   - Dynamic styles, Server-side Rendering 등의 기능 지원
-  
 - 예시
-```JSX
-function Home() {
-  return (
-    <div className="container">
-      <h1>Hello Next.js</h1>
-      <p>Let's explore different ways to style Next.js apps</p>
-      <style jsx>{`
-        .container {
-          margin: 50px;
-        }
-        p {
-          color: blue;
-        }
-      `}</style>
-    </div>
-  )
-}
 
-export default Home
-```
+  ```JSX
+  function Home() {
+    return (
+      <div className="container">
+        <h1>Hello Next.js</h1>
+        <p>Let's explore different ways to style Next.js apps</p>
+        <style jsx>{`
+          .container {
+            margin: 50px;
+          }
+          p {
+            color: blue;
+          }
+        `}</style>
+      </div>
+    )
+  }
 
+  export default Home
+  ```
 
 ## 출처
 

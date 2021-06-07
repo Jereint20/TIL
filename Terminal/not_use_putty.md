@@ -17,13 +17,15 @@
 ## 준비물
 
 - Terminal: cmd.exe(Command Prompt) 도 사용 가능
+
   - 내가 사용한 것: [Hyper](https://hyper.is/)
   - [다른 터미널 탐색용 링크](https://github.com/Awesome-Windows/Awesome#terminal)
 
 - SSH 클라이언트
+
   - 확인 방법: cmd 또는 터미널에서 ssh 입력
   - 아래와 같이 뜬다면 따로 설치하지 않아도 됨
-  ![check SSH](../img/no_putty_1.jpg)
+    ![check SSH](../img/no_putty_1.jpg)
   - 설치방법: [윈도우 10 팁: putty가 더 이상 필요없다! 내장 OpenSSH 클라이언트 설치하기](https://archwin.net/402)
 
 - AWS Private Key

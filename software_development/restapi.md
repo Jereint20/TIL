@@ -11,6 +11,7 @@
 ### 역사 확인
 
 - WEB(1991)
+
   - 인터넷 정보 공유 방식: HyperText 로 연결
     - 표현 형식: HTML
     - 식별자: URI
@@ -20,6 +21,7 @@
     - 해결책: HTTP Object Model -> 이후 REST란 이름으로 발표됨(2000년 박사 논문)
 
 - API
+
   - XML-RPC(1998) -> SOAP(이름 변경)
     - 원격으로 다른 시스템의 메소드 호출 가능한 프로토콜
   - flickr API(2004.8)
@@ -27,34 +29,37 @@
     - SOAP 보다 적은 규칙으로 사용하기 쉬운 REST가 많이 사용됨
 
 - CMIS(2008)
+
   - Content Management Interoperability Services
   - CMS를 위한 표준
     - CMS: 공공기관, 기업, 대학, 단체 및 협회의 사이트에서 여러개의 서브 사이트를 보유하고 관리 할 때 손쉽게 제작, 관리를 할 수 있는 웹 사이트 분양 솔루션으로써 전문적인 지식이 없어도 웹 사이트 운영 관리자가 손쉽게 운영, 관리할 수 있는 툴을 제공<sup id="sup1">[1](#footnote1)</sup>
   - **REST 바인딩 지원**
-    - *Fielding: No REST in CMIS*
+    - _Fielding: No REST in CMIS_
 
 - Microsoft REST API Guidelines(2016)
+
   - 사람들이 생각하는 REST API 에 대한 자세한 가이드라인 제시
-    - *Fielding: perl -e 's/REST API/HTTP API/g;'*
+    - _Fielding: perl -e 's/REST API/HTTP API/g;'_
 
 - 왜 REST API 개발자는 현재 REST 가 잘못되었다고 말하는가?
 
 ### REST(REpresentational State Transfer)
 
 - 영어 직역: 대표적인 상태 전달
+
   - 자원의 대표에 의한 상태 전달<sup id="sup2">[2](#footnote2)</sup>
     - 자원의 대표
       - 자원: 해당 소프트웨어가 관리하는 모든 것
       - 대표: 자원을 특정할 수 있는 값(id 등)
     - 상태 전달
       - 데이터를 요청하는 시점의 자원의 상태(정보) 전달
-    - *HTTP 를 통해 CRUD 를 실행할 수 있는 API를 REST 라고도 부름*
-      - *위 이야기 덕분에 REST 에 대해 어렵게 되기도 함*
+    - _HTTP 를 통해 CRUD 를 실행할 수 있는 API를 REST 라고도 부름_
+      - _위 이야기 덕분에 REST 에 대해 어렵게 되기도 함_
 
 - 분산 하이퍼미디어 시스템(like web)을 위한 아키텍쳐 스타일
   - 아키텍쳐 스타일: 제약조건들의 집합
-  
 - REST 구성 스타일
+
   - **아래 스타일을 다 맞춘 서비스를 RESTful 하다고 이야기 함**
   - Uniform Interface 를 제외한 나머지 부분은 HTTP 만 제대로 따르면 잘 지킬 수 있다.<sup id="sup3">[3](#footnote3)</sup>
   - Client-Server: 각각의 역할이 확실히 구분되어야 함
@@ -72,11 +77,13 @@
       - ex)JavaScript
     - 반드시 충족할 필요 없음
   - Uniform Interface: 인터페이스 일관성
+
     - identification of resources
       - URI 가 식별되어야 함 / 잘 지켜지고 있음
     - manipulation of resources through representations
       - CRUD 시에 HTTP 메시지에 내용을 담아서 전송 / 잘 지켜지고 있음
     - self-descriptive messages
+
       - 메시지는 스스로를 설명해야한다
       - 확장 가능한 커뮤니케이션
 
@@ -102,6 +109,7 @@
       ```
 
     - hypermedia as the engine of application state (HATEOAS)
+
       - 애플리케이션의 상태는 Hyperlink 를 이용해 전이되어야 한다.
       - 링크는 동적으로 변경될 수 있다.
       - 아래 예시는 모두 올바른 예시
@@ -139,6 +147,7 @@
 - Server 의 기능이 변경되어도 Client 를 업데이트할 필요가 없다.
 
 - **Web**: REST 가 잘 지켜지는 사례
+
   - 웹 페이지가 변경되었다고 해서 웹 브라우저를 업데이트할 필요 없음
   - 웹 브라우저를 업데이트했다고 웹 페이지를 변경할 필요 없음
     - 비교: 앱은 강제업데이트 한 후에 동작하는 경우 생김
@@ -157,17 +166,18 @@
 - API: Application Programming Interface
   - 서로 정보를 교환가능 하도록 하는 것
 - REST API
+
   - REST 기반으로 서비스 API 를 구현한 것
   - [마이크로소프트 REST API 가이드라인](https://docs.microsoft.com/ko-kr/azure/architecture/best-practices/api-design)
     - 완전히 RESTful 한것은 아니나, 충분히 통용 가능한 가이드라인
 
 - 웹과 REST API 차이
 
-| 비교         | 웹 페이지 | HTTP API  |
-| ---------- | ----- | --------- |
-| Protocol   | HTTP  | HTTP      |
-| 커뮤니케이션     | 사람-기계 | **기계-기계** |
-| Media Type | HTML  | **JSON**  |
+| 비교         | 웹 페이지 | HTTP API      |
+| ------------ | --------- | ------------- |
+| Protocol     | HTTP      | HTTP          |
+| 커뮤니케이션 | 사람-기계 | **기계-기계** |
+| Media Type   | HTML      | **JSON**      |
 
 - JSON 에서 의미 해석을 하려면 별도의 문서가 필요함
   - Self-descriptive
@@ -186,6 +196,7 @@
 ## 정리 출처
 
 - [그런 REST API 로 괜찮은가](https://youtu.be/RP_f5dMoHFc)
+
   - [발표 슬라이드](https://slides.com/eungjun/rest#/)
 
 - 참고 자료들(실제 API 작성 방식도 같이 들어있음)

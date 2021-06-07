@@ -4,7 +4,7 @@
 - 2019.03.02: 1차 정리
 
 > 프로그램을 작성하기 전에 테스트 먼저 하라! (Test the program before you write it.)
-> *-Kent Beck-*
+> _-Kent Beck-_
 
 ## 정리
 
@@ -19,8 +19,7 @@
 - 정제(Refine): 아이디어를 통합하고, 불필요한 것은 제거하고, 모호한 것은 명확히 해서 대답을 정제한다. (리팩토링)
 - 반복(Repeat): 다음 질문을 통해 대화를 계속 진행한다.
 
-> ![TDD Flowchart](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/TDD_Global_Lifecycle.png/1920px-TDD_Global_Lifecycle.png)
-> [*출처: 영문 위키백과*](https://en.wikipedia.org/wiki/Test-driven_development)
+> ![TDD Flowchart](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/TDD_Global_Lifecycle.png/1920px-TDD_Global_Lifecycle.png) > [_출처: 영문 위키백과_](https://en.wikipedia.org/wiki/Test-driven_development)
 
 ### 규칙
 

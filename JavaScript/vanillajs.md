@@ -27,8 +27,7 @@
 > - **JavaScript(Vanilla JS): 모든 브라우저에서 사용 가능한 언어**
 >   - jquery 로 작성한 코드를 웹 브라우저에서 실행할 경우, 기본적으로 브라우저에서 JS 로 컴파일해서 사용함
 >   - JS 가 가장 빠를 수 밖에 없음
->   ![JS Compare](../img/vanillajs_compare.jpg)
->   <sup id="sup1">[*출처1*](#footnote1)</sup>
+>     ![JS Compare](../img/vanillajs_compare.jpg) > <sup id="sup1">[_출처1_](#footnote1)</sup>
 >   - 따라서 JS 를 배우는 것이 좋음
 > - **JS 변수**
 >   - let : 변수 선언
@@ -60,7 +59,7 @@
 >   - log, error 등의 기능을 built-in Function 으로 제공해준다
 > - **Function**
 >   - 일정한 동작을 수행하는 코드
->   - parameter: 매개변수<sup id="sup2">[*2*](#footnote2)</sup>
+>   - parameter: 매개변수<sup id="sup2">[_2_](#footnote2)</sup>
 >     - function 을 만들 때 사용하는 임의의 값
 >   - argument: 인수
 >     - function 을 실행할때 함수에 넣는 값
@@ -68,16 +67,16 @@
 > - **Backtick( ` )**
 >   - String 에 Backtick 을 사용할 경우 변수를 불러오기 용이함
 
-   ```js
-   name = "SG";
-   console.log(`Hello ${name}`);
-   //result: Hello SG
-   ```
+```js
+name = 'SG';
+console.log(`Hello ${name}`);
+//result: Hello SG
+```
 
 > - **DOM**
 >   - Document Object Model
 >   - HTML 태그를 가져다 Object 로 만들어 줌
->   - Console.log 와 .dir 의 차이<sup id="sup3">[*3*](#footnote3)</sup>
+>   - Console.log 와 .dir 의 차이<sup id="sup3">[_3_](#footnote3)</sup>
 >     - console.log : HTML과 같은 트리 구조로 출력
 >     - console.dir : JSON과 같은 트리 구조로 출력
 >   - Event
@@ -86,7 +85,7 @@
 >     - MDN 에 Event 상태에 대한 설명이 모두 있다.
 
 - **개발 방법론**
-  
+
 > - **css, HTML, JS 분리**
 >   - HTML: Tag 관리
 >   - css: css 관리
@@ -116,7 +115,7 @@
 > - filter
 >   - Array ForEach 에 filter 기능을 추가
 >   - 판별 함수를 통과하는 요소를 가지고 새로운 Array 를 만들어 줌
-> - Fetch API<sup id="sup6">[*6*](#footnote6)</sup>
+> - Fetch API<sup id="sup6">[_6_](#footnote6)</sup>
 >   - XMLHttpRequest(XHR) 에서의 문제 해결
 >     - 문제점 : 입력, 출력, 상태 모두 하나의 객체로 관리함 / 상태 모두 하나의 객체로 관리
 >   - Promise & generator 기반 비동기 프로그래밍 방식을 사용하기 위한 방법
@@ -143,7 +142,7 @@
 
 <b id="footnote2">2</b> : [블로그: 파라미터 와 아규먼트 차이](https://enarastudent.tistory.com/entry/%ED%95%A8%EC%88%98%EC%9D%98-%EC%95%84%EA%B7%9C%EB%A8%BC%ED%8A%B8%EC%99%80-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0%EC%9D%98-%EC%B0%A8%EC%9D%B4) [↩](#sup2)
 
-<b id="footnote3">3</b> : [MDN : console.log()](https://developer.mozilla.org/ko/docs/Web/API/Console/log#console.dir()_%EA%B3%BC%EC%9D%98_%EC%B0%A8%EC%9D%B4) [↩](#sup3)
+<b id="footnote3">3</b> : [MDN : console.log()](<https://developer.mozilla.org/ko/docs/Web/API/Console/log#console.dir()_%EA%B3%BC%EC%9D%98_%EC%B0%A8%EC%9D%B4>) [↩](#sup3)
 
 <b id="footnote4">4</b> : [MDN : Web Storage API](https://developer.mozilla.org/ko/docs/Web/API/Web_Storage_API) [↩](#sup4)
 

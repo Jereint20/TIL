@@ -11,7 +11,7 @@
 
 ## DOM tree
 
-![](https://poiemaweb.com/img/dom-tree.png)
+![DOM tree diagram](https://poiemaweb.com/img/dom-tree.png)
 
 - 크게 4종류의 Node 로 구성
 - Document Node(문서 노드)
