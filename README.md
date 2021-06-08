@@ -5,7 +5,7 @@
 에 의해 자동화되었습니다.
 
 
-_37 TILs and counting..._
+_38 TILs and counting..._
 
 ---
 
@@ -85,6 +85,7 @@ _37 TILs and counting..._
 - [프로그래밍 패러다임](SoftwareDevelopment/programming_paradigms.md)
 - [REST, RESTful, REST API](SoftwareDevelopment/restapi.md)
 - [TDD (테스트 주도 개발)](SoftwareDevelopment/tdd.md)
+- [객체지향의 사실과 오해 요약](SoftwareDevelopment/the_essence_of_object-orientation.md)
 
 ### [StudyGroup](#StudyGroup)
 - [사내 스터디 발표 자료](StudyGroup/in-house_study.md)
